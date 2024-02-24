@@ -91,7 +91,7 @@ video {
 
 .inputNamaKelasTanggalCam {
     position: relative;
-    width: 69vw;
+    width: 74vw;
     margin: auto;
 }
 
@@ -101,7 +101,7 @@ input {
     background-color: transparent;
     position: relative;
     bottom: 2vw;
-    width: 59vw;
+    width: 66vw;
     height: 4vw;
 }
 
@@ -116,17 +116,18 @@ legend {
 }
 
 .Nama,.Kelas,.Tanggal {
-    width: 60vw;
+    width: 75vw;
     height: 9vw;
 }
 
 .Nama,.Kelas {
     margin-bottom: 4vw;
-    width: 60vw;
+    width: 67vw;
 }
 
 .Tanggal {
     margin-bottom: 7vw;
+    width: 67vw;
 }
 
 .kirim {
