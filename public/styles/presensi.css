@@ -1,0 +1,185 @@
+body {
+    background-color: #EDF2F4;
+    background-image: linear-gradient(to bottom right, #389FE1, #1467C3);
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+    /* overflow: hidden; */
+    font-family: "Poppins", sans-serif;
+    height: 70vh;
+}
+
+.blue {
+    width: 100vw;
+    position: relative;
+    opacity: 40%;
+
+}
+
+.gambarKanan,.gambarKiri {
+    width: 35vw;
+    position: absolute;
+    bottom: 0vw;
+    z-index: 9;
+}
+
+.gambarKiri {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    position: absolute;
+    left: 65vw;
+}
+
+.gerbang {
+    width: 50vw;    
+    z-index: 1;
+    margin: auto;
+    position: relative;
+    bottom: 97vw;
+    display: block; 
+}
+
+video {
+    aspect-ratio: 1;
+    width: 35vw;
+    border-radius: 5vw;
+    margin: auto;
+    display: block;
+    margin-bottom: 0vw;
+    object-fit: cover;
+}
+
+.background {
+    overflow: hidden;
+    background-image: linear-gradient(to bottom, #F8F9FA, #EDF2F4);
+    position: relative;
+    bottom: 128vw;
+    z-index: 2;
+    border-top-left-radius: 10vw;
+    border-top-right-radius: 10vw;
+    height: 149.1vw;
+}
+
+.content {
+    border-top-left-radius: 10vw;
+    border-top-right-radius: 10vw;
+    background-image: linear-gradient(to bottom, #F8F9FA, #EDF2F4);
+    position: relative;
+    z-index: -2;
+}
+
+.judulJepang {
+    text-align: center;
+    border-top-left-radius: 8vw;
+    border-top-right-radius: 8vw;
+    line-height: 8vw;
+    position: relative;
+    top: 10vw;
+    margin-bottom: 15vw;
+}
+
+.judul {
+    font-size: 8vw;
+    font-weight: 800;
+}
+
+.jepang {
+    font-size: 4vw;
+    font-weight: 700;
+    letter-spacing: 0.2vw;
+}
+
+.inputNamaKelasTanggalCam {
+    position: relative;
+    width: 69vw;
+    margin: auto;
+}
+
+input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    position: relative;
+    bottom: 2vw;
+    width: 59vw;
+    height: 4vw;
+}
+
+
+fieldset {
+    -webkit-border-radius: 3vw;
+}
+
+legend {
+    font-size: 3.5vw;
+    margin-left: 2vw;
+}
+
+.Nama,.Kelas,.Tanggal {
+    width: 60vw;
+    height: 9vw;
+}
+
+.Nama,.Kelas {
+    margin-bottom: 4vw;
+    width: 60vw;
+}
+
+.Tanggal {
+    margin-bottom: 7vw;
+}
+
+.kirim {
+    border: none;
+    background-image: linear-gradient(to bottom, #389FE1, #1467C3);
+    /* background-color: #1467C3; */
+    color: #FFFFFF;
+    font-size: 4vw;
+    padding: 3vw 7vw 3vw 7vw;
+    margin: auto;
+    display: block;
+    border-radius: 10vw;
+    position: relative;
+    top: 0vw;
+    width: 40vw;
+    font-weight: 400;
+    z-index: 2;
+}
+
+.bawah {
+    width: 35vw;
+    position: relative;
+    bottom: 16vw;
+}
+
+@media screen and (min-width: 480px) and (max-width: 485px) {
+    .bawah {
+        bottom: 11vw;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 325px) {
+    .bawah {
+        bottom: 18vw;
+    }
+}
+
+.video {
+    border: 0.5vw solid #D9D9D9;
+    background-color: #D9D9D9;
+    background-image: url("../assets/presensi/kamera.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 35vw;
+    width: 35vw;
+    margin: auto;
+    border-radius: 5vw;
+    margin-bottom: 7.5vw;
+}
+
+.flip {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    position: relative;
+    float: right;
+}
