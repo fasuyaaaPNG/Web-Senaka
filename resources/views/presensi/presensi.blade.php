@@ -52,11 +52,10 @@
                         </video>
                     </div>
                 </div>
-                
-            </form>
-            <button type="submit" class="kirim" onclick="takeSnapshot()">
+                <button type="submit" class="kirim" onclick="takeSnapshot()">
                     Kirim
                 </button>
+            </form>
         </div>
     </div>
     <img src="assets/presensi/gambarBelakang.svg" alt="" class="gambarKanan">
