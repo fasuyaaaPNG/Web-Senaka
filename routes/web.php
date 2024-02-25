@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PresensiController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,3 +21,5 @@ Route::get('/', function () {
 Route::get('/presensi', function () {
     return view('presensi/presensi');
 });
+
+Route::post('/presensi/store', [PresensiController::class, 'store'])->name('presensi.store');
