@@ -24,25 +24,26 @@
                     セナカ の めんぜん
                 </div>
             </div>
-            <form action="" method="post">
+            <form action="{{ route('presensi.store') }}" method="post" enctype="multipart/form-data">
+            @csrf
                 <div class="inputNamaKelasTanggalCam">
                     <fieldset class="Nama">
                         <legend>
                             Nama Lengkap
                         </legend>
-                        <input type="text">
+                        <input type="text" name="nama_lengkap">
                     </fieldset>
                     <fieldset class="Kelas">
                         <legend>
                             Kelas
                         </legend>
-                        <input type="text" maxlength="15">
+                        <input type="text" name="kelas" maxlength="15">
                     </fieldset>
                     <fieldset class="Tanggal">
                         <legend>
                             Tanggal
                         </legend>
-                        <input type="date">
+                        <input type="date" name="tanggal">
                     </fieldset>
                     <div class="video">
                         <video autoplay="true" id="video-webcam">
@@ -51,6 +52,7 @@
                             </object>
                         </video>
                     </div>
+                    <input type="hidden" name="foto" id="foto">
                 </div>
                 <button type="submit" class="kirim" onclick="takeSnapshot()">
                     Kirim
