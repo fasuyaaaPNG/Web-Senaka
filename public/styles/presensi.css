@@ -108,6 +108,7 @@ input {
 
 fieldset {
     -webkit-border-radius: 3vw;
+    border: 0.2vw solid black;
 }
 
 legend {
