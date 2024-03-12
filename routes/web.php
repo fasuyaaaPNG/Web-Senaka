@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PresensiController;
+use App\Http\Controllers\SignaturePadController;
 
 /*
 |--------------------------------------------------------------------------
@@ -23,3 +24,10 @@ Route::get('/presensi', function () {
 });
 
 Route::post('/presensi/store', [PresensiController::class, 'store'])->name('presensi.store');
+
+Route::get('signaturepad', [SignaturePadController::class, 'index']);
+Route::post('signaturepad', [SignaturePadController::class, 'upload'])->name('signaturepad.upload');
+
+Route::get('/carousel', function() {
+    return view('carousel');
+});

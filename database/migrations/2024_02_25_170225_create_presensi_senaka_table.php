@@ -13,7 +13,7 @@ class CreatePresensiSenakaTable extends Migration
             $table->string('nama_lengkap');
             $table->string('kelas');
             $table->date('tanggal');
-            $table->binary('foto')->nullable();
+            $table->string('foto')->nullable();
             $table->timestamps();
         });
     }
