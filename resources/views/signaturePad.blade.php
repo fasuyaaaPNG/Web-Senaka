@@ -1,14 +1,14 @@
 <html>
 <head>
     <title>Laravel Signature Pad Tutorial Example - ItSolutionStuff.com </title>
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.css" crossorigin="anonymous">
   
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
-    <link type="text/css" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/south-street/jquery-ui.css" rel="stylesheet"> 
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-    <script type="text/javascript" src="https://keith-wood.name/js/jquery.signature.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js" crossorigin="anonymous"></script> 
+    <link type="text/css" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/south-street/jquery-ui.css" rel="stylesheet" crossorigin="anonymous"> 
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://keith-wood.name/js/jquery.signature.js" crossorigin="anonymous"></script>
   
-    <link rel="stylesheet" type="text/css" href="https://keith-wood.name/css/jquery.signature.css">
+    <link rel="stylesheet" type="text/css" href="https://keith-wood.name/css/jquery.signature.css" crossorigin="anonymous">
   
     <style>
         .kbw-signature { width: 100%; height: 200px;}
