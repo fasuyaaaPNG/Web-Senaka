@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Presensi;
+use Illuminate\Support\Facades\App;
 
 class PresensiController extends Controller
 {
@@ -13,20 +14,19 @@ class PresensiController extends Controller
             'nama_lengkap' => 'required|string',
             'kelas' => 'required|string|max:15',
             'tanggal' => 'required|date',
-            'foto' => 'required|string' 
+            // 'foto' => 'required|string' 
         ]);
 
-        $base64Data = substr($request->foto, strpos($request->foto, ',') + 1);
-
-        $fotoBinary = base64_decode($base64Data);
-
+        $response = App::make('App\Http\Controllers\SignaturePadController')->upload($request);
+        $url = $response->original;
+        
         Presensi::create([
             'nama_lengkap' => $request->nama_lengkap,
             'kelas' => $request->kelas,
             'tanggal' => $request->tanggal,
-            'foto' => $fotoBinary
+            'foto' => $url 
         ]);
 
-        return redirect()->back()->with('success', 'Presensi berhasil disimpan.');
+        return redirect()->back()->with('success', 'Presensi berhasil disimpan. URL Foto: ' . $url);
     }
 }
