@@ -12,14 +12,18 @@ class SignaturePadController extends Controller
     }
 
     public function upload(Request $request) {
-        $folderPath = public_path('storage');
         $image_parts = explode(";base64,", $request->signed);
         $image_type_aux = explode('image/', $image_parts[0]);
         $image_type = $image_type_aux[1];
         $image_base64 = base64_decode($image_parts[1]);
 
-        $file = $folderPath . uniqid() . '.'.$image_type;
-        file_put_contents($file, $image_base64);
-        return back()->with('success', 'success Full upload signature');
+        $filename = uniqid() . '.' . $image_type;
+
+        $path = Storage::put('public/' . $filename, $image_base64);
+
+        $url = Storage::url($path);
+
+        return back()->with('success', 'File uploaded successfully. URL: ' . $url);
+
     }
 }
