@@ -10,15 +10,33 @@ body {
 }
 
 .kbw-signature { 
-    width: 60vw;
-    margin-bottom: 2vw;
-    height: 60vw;
+    width: 70vw;
+    height: 45vw;
     margin: auto;
     display: block;
 }
+
+.backSampah {
+    background-color: white;
+    border: 0.7vw solid #389FE1;
+    height: 6vw;
+    padding: 2vw;
+    position: absolute;
+    bottom: 37vw;
+    left:  63vw;
+    float: right;
+    border-radius: 100%;
+}
+
+.iconHapus {
+    width: 6vw;
+}
+
 #sig canvas{
     width: 100% !important;
     height: auto;
+    border: 0.7vw solid #389FE1;
+    border-radius: 3vw;
 }
 
 .blue {
@@ -32,13 +50,11 @@ body {
     width: 35vw;
     position: absolute;
     bottom: 0vw;
-    z-index: 9;
 }
 
 .gambarKiri {
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
-    position: absolute;
     left: 65vw;
 }
 
@@ -158,6 +174,7 @@ legend {
     width: 40vw;
     font-weight: 400;
     z-index: 2;
+    margin-top: 5vw;
 }
 
 .bawah {

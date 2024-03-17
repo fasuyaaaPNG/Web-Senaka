@@ -27,30 +27,34 @@
                     セナカ の めんぜん
                 </div>
             </div>
-            <form action="<?php echo e(route('presensi.store')); ?>" method="post" enctype="multipart/form-data">
+            <form action="<?php echo e(route('presensi.store')); ?>" name="signature"  method="POST">
             <?php echo csrf_field(); ?>
                 <div class="inputNamaKelasTanggalCam">
                     <fieldset class="Nama">
                         <legend>
                             Nama Lengkap
                         </legend>
-                        <input type="text" name="nama_lengkap">
+                        <input type="text" required name="nama_lengkap">
                     </fieldset>
                     <fieldset class="Kelas">
                         <legend>
                             Kelas
                         </legend>
-                        <input type="text" name="kelas" maxlength="15">
+                        <input type="text" required name="kelas" maxlength="15">
                     </fieldset>
                     <fieldset class="Tanggal">
                         <legend>
                             Tanggal
                         </legend>
-                        <input type="date" name="tanggal">
+                        <input type="date" required name="tanggal">
                     </fieldset>
                     <div id="sig" ></div>
+                    <div id="clear" class="backSampah">
+                        <img src="assets/presensi/sampah.png" alt="" class="iconHapus">
+                    </div>
+                    <textarea id="signature64" name="signed" style="display: none"></textarea>
                 </div>
-                <button type="submit" class="kirim" onclick="takeSnapshot()">
+                <button type="submit" class="kirim">
                     Kirim
                 </button>
             </form>
