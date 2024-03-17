@@ -9,6 +9,18 @@ body {
     height: 70vh;
 }
 
+.kbw-signature { 
+    width: 60vw;
+    margin-bottom: 2vw;
+    height: 60vw;
+    margin: auto;
+    display: block;
+}
+#sig canvas{
+    width: 100% !important;
+    height: auto;
+}
+
 .blue {
     width: 100vw;
     position: relative;
