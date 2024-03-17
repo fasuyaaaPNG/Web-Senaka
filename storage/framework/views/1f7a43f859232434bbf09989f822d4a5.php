@@ -33,14 +33,14 @@
                    <h5>Presensi SENAKA</h5>
                </div>
                <div class="card-body">
-                    @if ($message = Session::get('success'))
+                    <?php if($message = Session::get('success')): ?>
                         <div class="alert alert-success  alert-dismissible">
                             <button type="button" class="close" data-dismiss="alert">×</button>  
-                            <strong>{{ $message }}</strong>
+                            <strong><?php echo e($message); ?></strong>
                         </div>
-                    @endif
-                    <form method="POST" action="{{ route('signaturepad.upload') }}">
-                        @csrf
+                    <?php endif; ?>
+                    <form method="POST" action="<?php echo e(route('signaturepad.upload')); ?>">
+                        <?php echo csrf_field(); ?>
                         <div class="col-md-12">
                             <label class="" for="">Signature:</label>
                             <br/>
@@ -69,4 +69,4 @@
 </script>
 <script src="js/jquerySignaturePad.js"></script>
 </body>
-</html>
+</html><?php /**PATH C:\Users\fasuyaaa\Project\Web-Senaka\resources\views/signaturePad.blade.php ENDPATH**/ ?>
