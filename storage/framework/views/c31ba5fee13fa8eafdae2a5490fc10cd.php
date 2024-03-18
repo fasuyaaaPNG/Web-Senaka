@@ -14,7 +14,7 @@
 <body>
     <div class="navbar" id="navbar">
         <div class="iconNavbar">
-            <img src="assets/landing/burger.png" alt="" class="iconNavBurger">
+            <img loading="lazy" src="assets/landing/burger.png" alt="" class="iconNavBurger">
         </div>
     </div>
     <div class="content1">
@@ -44,19 +44,19 @@
         </p>
         <div class="gallery js-flickity" data-flickity-options='{ "wrapAround": true, "pageDots": false, "imagesLoaded": true, "prevNextButtons": false, "autoPlay": 2000 }'>
             <div class="carousel-cell">
-                <img src="assets/landing/1.png" class="imageSlide" alt="" srcset="">
+                <img loading="lazy" src="assets/landing/1.png" class="imageSlide" alt="" srcset="">
             </div>
             <div class="carousel-cell">
-                <img src="assets/landing/2.png" class="imageSlide" alt="" srcset="">
+                <img loading="lazy" src="assets/landing/2.png" class="imageSlide" alt="" srcset="">
             </div>
             <div class="carousel-cell">
-                <img src="assets/landing/3.png" class="imageSlide" alt="" srcset="">
+                <img loading="lazy" src="assets/landing/3.png" class="imageSlide" alt="" srcset="">
             </div>
             <div class="carousel-cell">
-                <img src="assets/landing/4.png" class="imageSlide" alt="" srcset="">
+                <img loading="lazy" src="assets/landing/4.png" class="imageSlide" alt="" srcset="">
             </div>
             <div class="carousel-cell">
-                <img src="assets/landing/5.png" class="imageSlide" alt="" srcset="">
+                <img loading="lazy" src="assets/landing/5.png" class="imageSlide" alt="" srcset="">
             </div>
         </div>
         <a href="" class="buttonContent2">
@@ -70,7 +70,7 @@
         <p class="deskContent3">
             Lokasi Kami ada di SMK Negeri 7 Semarang!
         </p>
-        <img src="assets/landing/lokasi.png" alt="" class="imageContent3">
+        <img loading="lazy" src="assets/landing/lokasi.png" alt="" class="imageContent3">
         <div class="lokasiDeskContent3">
             <iframe class="lokasiContent3" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.1551380332453!2d110.42138561807572!3d-6.991001247408986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e708b5ec9c768e9%3A0x23b2fb89a9518453!2sSMK%20Negeri%207%20Semarang%20(STM%20Pembangunan)!5e0!3m2!1sid!2sid!4v1710734978253!5m2!1sid!2sid" width="30vw" height="30vw" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             <p class="deskLokasiContent3">
@@ -87,7 +87,7 @@
         </p>
         <div class="divBanefit1">
             <div class="banefit1 kipas">
-                <img src="/assets/landing/kipas.png" alt="" class="imgBanefit imgKipas">
+                <img loading="lazy" src="/assets/landing/kipas.png" alt="" class="imgBanefit imgKipas">
                 <p class="judulBanefit">
                     HURUF JEPANG
                 </p>
@@ -96,7 +96,7 @@
                 </p>
             </div>
             <div class="banefit1">
-            <img src="/assets/landing/gerbang.png" alt="" class="gerbang">
+            <img loading="lazy" src="/assets/landing/gerbang.png" alt="" class="gerbang">
                 <p class="judulBanefit">
                     BUDAYA JEPANG
                 </p>
@@ -107,7 +107,7 @@
         </div>
         <div class="divBanefit2">
             <div class="banefit2">
-                <img src="/assets/landing/sushi.png" alt="" class="imgBanefit">
+                <img loading="lazy" src="/assets/landing/sushi.png" alt="" class="imgBanefit">
                 <p class="judulBanefit judulBanefit2">
                     BERBICARA BAHASA JEPANG
                 </p>
@@ -136,7 +136,7 @@
                     Follow Us!
                 </p>
                 <a href="https://www.instagram.com/stemba.nakama/">
-                    <img src="/assets/landing/ig.png" class="ig" alt="">
+                    <img loading="lazy" src="/assets/landing/ig.png" class="ig" alt="">
                 </a>
                 <div class="garisFooter"></div>
                 <div class="priterms">

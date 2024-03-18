@@ -65,6 +65,7 @@ body {
 .gallery {
     overflow-x: hidden;
     outline: none;
+    border: none;
 }
 
 .backJepangContent1 {
