@@ -64,6 +64,7 @@ body {
 
 .gallery {
     overflow-x: hidden;
+    outline: none;
 }
 
 .backJepangContent1 {
@@ -366,5 +367,5 @@ input::placeholder {
     text-align: center;
     font-size: 3vw;
     font-weight: 400;
-    padding-bottom: 2vw;
+    padding-bottom: 4vw;
 }
