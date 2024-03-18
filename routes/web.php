@@ -16,7 +16,7 @@ use App\Http\Controllers\SignaturePadController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('landing');
 });
 
 Route::get('/presensi', function () {

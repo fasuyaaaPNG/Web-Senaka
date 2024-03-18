@@ -11,19 +11,19 @@ body {
 
 .kbw-signature { 
     width: 70vw;
-    height: 45vw;
+    height: 40vw;
     margin: auto;
     display: block;
 }
 
 .backSampah {
     background-color: white;
-    border: 0.7vw solid #389FE1;
+    border: 0.6vw solid black;
     height: 6vw;
     padding: 2vw;
     position: absolute;
-    bottom: 37vw;
-    left:  63vw;
+    bottom: 33vw;
+    left:  65vw;
     float: right;
     border-radius: 100%;
 }
@@ -35,7 +35,7 @@ body {
 #sig canvas{
     width: 100% !important;
     height: auto;
-    border: 0.7vw solid #389FE1;
+    border: 0.6vw solid black;
     border-radius: 3vw;
 }
 
@@ -50,6 +50,7 @@ body {
     width: 35vw;
     position: absolute;
     bottom: 0vw;
+    z-index: 8;
 }
 
 .gambarKiri {
@@ -144,6 +145,12 @@ legend {
     margin-left: 2vw;
 }
 
+.labelTD {
+    font-size: 3.5vw;
+    position: relative;
+    left: 4vw;
+}
+
 .Nama,.Kelas,.Tanggal {
     width: 75vw;
     height: 9vw;
@@ -155,7 +162,7 @@ legend {
 }
 
 .Tanggal {
-    margin-bottom: 7vw;
+    margin-bottom: 3vw;
     width: 67vw;
 }
 

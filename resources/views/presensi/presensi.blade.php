@@ -48,6 +48,7 @@
                         </legend>
                         <input type="date" required name="tanggal">
                     </fieldset>
+                    <label class="labelTD" for="">Tanda tangan: </label>
                     <div id="sig" ></div>
                     <div id="clear" class="backSampah">
                         <img src="assets/presensi/sampah.png" alt="" class="iconHapus">
