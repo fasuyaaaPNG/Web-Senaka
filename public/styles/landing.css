@@ -10,7 +10,6 @@ body {
     background-image: linear-gradient(to bottom, #389FE1, #1467C3);
     background-repeat: no-repeat;
     background-size: cover;
-    overflow-x: hidden;
 }
 
 .navbar {
@@ -61,6 +60,10 @@ body {
 .judulContent1 {
     font-size: 8vw;
     font-weight: 700;
+}
+
+.gallery {
+    overflow-x: hidden;
 }
 
 .backJepangContent1 {
