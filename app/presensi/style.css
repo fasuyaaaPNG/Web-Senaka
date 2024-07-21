@@ -132,7 +132,7 @@ canvas#signature-pad {
     border-radius: 11.628vw;
     border: none;
     position: absolute;
-    z-index: 6;
+    z-index: 10;
     left: 27.907vw;
     top: 95.023vh;
     font-weight: 6  00;

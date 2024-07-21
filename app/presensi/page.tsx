@@ -26,6 +26,8 @@ export default function Presensi() {
     
         if (error) {
             console.error('Error uploading image:', error.message);
+            alert("kamu sudah presensi hari ini!")
+            window.location.reload();
             return;
         }
     
@@ -46,6 +48,8 @@ export default function Presensi() {
         }
     
         console.log('Data inserted successfully:', insertedData);
+        alert("presensi berhasil!")
+        window.location.reload();
     };
     
 
