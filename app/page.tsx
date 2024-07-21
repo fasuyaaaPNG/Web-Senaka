@@ -1,4 +1,5 @@
 import React from 'react';
+import Script from 'next/script'
 import "./style.css"        
 
 export default function Home() {
@@ -141,6 +142,7 @@ export default function Home() {
           Copyright by Stemba Nakama
         </p>
       </div>
+      <Script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></Script>
     </>
   );
 }
