@@ -136,14 +136,14 @@ canvas#signature-pad {
     left: 27.907vw;
     top: 95.023vh;
     font-weight: 6  00;
-    color: white;
+    color94: white;
     background-image: linear-gradient(to bottom, #389FE1, #1467C3); 
 }
 
 .gambarKanan,.gambarKiri {
     width: 35vw;
     position: absolute;
-    top: 93.208vh;
+    top: 94.208vh;
     z-index: 8;
 }
 

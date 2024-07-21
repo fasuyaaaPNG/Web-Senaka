@@ -22,7 +22,7 @@ export default function Presensi() {
         window.onresize = resizeCanvas;
         resizeCanvas();
 
-        const signaturePad = new SignaturePad(canvas, { backgroundColor: 'rgb(250,250,250)' });
+        const signaturePad = new SignaturePad(canvas, { backgroundColor: 'transparent' });
 
         document.getElementById("clear")?.addEventListener('click', () => {
             signaturePad.clear();
